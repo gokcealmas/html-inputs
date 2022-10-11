@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>inputs</title>
+
+</head>
+
+<body>
+
+  <h1>Input Types</h1>
+
+  <div>
+    <h3>Type: button</h3>
+    <input type="button" value="Button" />
+  </div>
+
+  <hr>
+
+  <div>
+    <h3>Type: checkbox</h3>
+    <div>
+      <input type="checkbox" id="box" name="box">
+      <label for="box">lma</label>
+    </div>
+    <div>
+      <input type="checkbox" id="box" name="box">
+      <label for="box">Armut</label>
+    </div>
+  </div>
+
+  <hr>
+
+  <div>
+    <h3>Type: Color</h3>
+    <input type="color" id="head" name="head" value="#CFFF8D">
+    <label for="head">Head</label>
+  </div>
+
+  <hr>
+
+  <div>
+    <h3>Type: Date</h3>
+    <label for="Date">Tarih</label>
+    <input type="date" id="date" name="Date" value="2022-10-10" min="01.01.2022" max="31.12.2022">
+  </div>
+
+  <hr>
+
+  <div>
+    <h3>Type: datetime-local</h3>
+    <label for="meeting-time">Toplantı için zaman seçiniz:</label>
+    <input type="datetime-local" id="datetimelocal" name="datetimelocal" value="2018-06-12T19:30" min="2018-06-07T00:00"
+      max="2018-06-14T00:00">
+  </div>
+
+  <hr>
+
+  <div>
+    <h3>Type: e-mail</h3>
+    <label for="e-mail">E-mail adresi giriniz!</label>
+    <input type="e-mail" id="e-mail" name="e-mail" size="30" required>
+  </div>
+
+  <hr>
+
+  <div>
+    <h3>Type: File</h3>
+    <label for="avatar"></label>
+    <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">
+  </div>
+
+  <hr>
+
+  <div>
+    <h3>Type:Hidden</h3>
+    <input type="hidden" id="postId" name="postId" value="34657" />
+  </div>
+
+  <hr>
+
+  <div>
+    <h3>Type:image</h3>
+    <input type="image" id="image" alt="Login"
+      src="https://interactive-examples.mdn.mozilla.net/media/examples/login-button.png" width="100">
+  </div>
+
+  <hr>
+
+  <div>
+    <h3>Type:Month</h3>
+    <label for="month">Ay</label>
+    <input type="month" name="month" id="month" value="2018-10">
+  </div>
+  <hr>
+
+  <div>
+    <h3>Type:Number</h3>
+    <label for="number">Sayı Giriniz</label>
+    <input type="number" name="number" id="number" value="10" step="10">
+  </div>
+
+  <hr>
+
+
+  <div>
+    <div>
+      <h3>Type:Password</h3>
+      <label for="pass">Password</label>
+      <input type="password" id="pass" name="password" minlength="6" required>
+    </div>
+  </div>
+
+  <hr>
+
+  <div>
+    <div>
+      <h3>Type:Radio</h3>
+      <p>Meyve Seçiniz</p>
+      <input type="radio" id="elma" name="meyve" value="elma" checked>
+      <label for="elma">Elma</label>
+    </div>
+
+    <div>
+      <input type="radio" id="armut" name="meyve" value="armut">
+      <label for="armut">Armut</label>
+    </div>
+
+    <div>
+      <input type="radio" id="kiraz" name="meyve" value="kiraz">
+      <label for="kiraz">Kiraz</label>
+    </div>
+  </div>
+  <hr>
+  <div>
+    <h3>Type:Range</h3>
+
+    <div>
+      <input type="range" id="volume" name="volume" min="0" max="10">
+      <label for="volume">Volume</label>
+    </div>
+    <hr>
+
+    <div>
+      <h3>Type:reset</h3>
+      <label for="id">User ID:</label>
+      <input type="text" id="id" name="id">
+      <input type="reset" value="Reset">
+    </div>
+    <hr>
+
+    <div>
+      <h3>Type:search</h3>
+      <form action="https://www.diken.com.tr/">
+        <input type="search" name="s">
+      </form>
+
+      <hr>
+
+      <div>
+        <h3>Type:submit</h3>
+        <input type="submit" value="Send Request" />
+      </div>
+
+      <hr>
+
+      <div>
+        <h3>Type:tel</h3>
+        <label for="phone">Enter your phone number:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <hr>
+
+
+        <div>
+          <h3>Type:text</h3>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required size="10">
+
+          <hr>
+
+          <div>
+            <h3>Type:time</h3>
+            <label for="appt">Toplantı zamanını seçiniz:</label>
+            <input type="time" id="appt" name="appt" min="09:00" max="18:00" required>
+
+            <hr>
+
+            <div>
+              <h3>Type:url</h3>
+              <label for="url">Enter an https:// URL:</label>
+              <input type="url" name="url" id="url" placeholder="https://example.com" required>
+
+              <hr>
+
+              <div>
+                <h3>Type:week</h3>
+<label for="week">Hafta seçiniz :</label>
+<input type="week" name="week" id="week" min="2018-W18" max="2018-W26" required>
+
+</body>
+
+</html>
